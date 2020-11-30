@@ -10,13 +10,19 @@ client = MongoClient(MONGODB_URL)
 db = client.get_database('Student')
 
 records = db.Lecture1
+status_records = db.Status
 
-def update(names):
-    for name in names:
-        attendance_update = {
-            'attendance': 'present'
-        }
-        idx = name.index('_')
-        roll = name[idx+1 :]
-        records.update({'roll': roll}, {'$set': attendance_update})
-    print('Attendance Records Updated!')
+def update(names, status):
+    if (names!=None):
+        for name in names:
+            attendance_update = {
+                'attendance': 'present'
+            }
+            if (name.find('_') == -1):
+                pass
+            else:
+                idx = name.index('_')
+                roll = name[idx+1 :]
+                records.update({'roll': roll}, {'$set': attendance_update})
+    status_records.update({}, {'$set': {'status': status}})
+    print(status)
