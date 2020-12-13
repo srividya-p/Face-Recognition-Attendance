@@ -154,6 +154,7 @@ print("Elasped time: {:.2f}".format(fps.elapsed()))
 print("Approx. FPS: {:.2f}".format(fps.fps()))
 
 #Update Attendance
+print(u_names)
 if (len(u_names)!=0):
     if(len(u_names) == 1 and 'Unknown' in u_names):
         update(None,"No recognizable students present!")
