@@ -31,7 +31,7 @@ A Raspberry Pi Face Recognition Attendance system with Pan and Tilt (using 2 Ser
 ## Face Recognition
 ![image](https://user-images.githubusercontent.com/74781344/112665206-d1b21880-8e80-11eb-8c77-43110c414d73.png)
 
-**Note - If you have a pan and tilt bracket set up with 2 servo motors you may use the arrow keys to move Camera Module.
+### Note - If you have a pan and tilt bracket set up with 2 servo motors you may use the arrow keys to move Camera Module.
 
 
 
