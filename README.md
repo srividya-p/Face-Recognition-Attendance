@@ -1,5 +1,5 @@
 # Face-Recognition-Attendance
-A Raspberry Pi Face Recognition Attendance system with Pan and Tilt (using 2 Servo motors and Pan and Tilt Bracket) and OpenCV hog face recognition (using RPi camera module). Data related to attendance gets update on the Attendance Website - http://face-rec-attendance.herokuapp.com/ <br>
+A Raspberry Pi Face Recognition Attendance system with Pan and Tilt (using 2 Servo motors and Pan and Tilt Bracket) and OpenCV hog face recognition (using RPi camera module). Data related to attendance gets update on the <br> Attendance Website - http://face-rec-attendance.herokuapp.com/ <br>
 Git - https://github.com/srividya-p/FRA-website
 # Installation
 
